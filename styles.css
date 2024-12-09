@@ -1,59 +1,42 @@
-
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('https://example.com/default-bg.jpg');
+    background-image: url('https://ukrainaincognita.com/wp-content/uploads/2021/06/kobeliaky11.jpg'); 
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: #333;
-    text-align: center;
+    height: 100vh;
 }
 
 header {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #5efa66e3;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
 }
 
-h1 {
-    margin: 0;
-    color: #007BFF;
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-header p {
-    margin: 5px 0;
-    font-size: 1.2em;
+nav ul li {
+    display: inline;
+    margin: 10px;
 }
 
-main {
-    padding: 20px;
-}
-
-h2 {
-    color: #555;
-}
-
-button {
-    background-color: #007BFF;
+nav ul li a {
     color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+    text-decoration: none;
 }
 
-button:hover {
-    background-color: #0056b3;
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(243, 191, 113);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    margin-top: 20px;
-    background: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 10px 0;
-    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    background-color: #5efa66e3;
+    color: rgb(0, 0, 0);
 }

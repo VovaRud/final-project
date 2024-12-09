@@ -1,31 +1,57 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Літературна Кобеляччина</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Літературна Кобеляччина</h1>
-        <p>Досліджуємо культурне та літературне надбання нашого краю</p>
+        <nav>
+            <ul>
+                <li><a href="#rayon">Про район</a></li>
+                <li><a href="#authors">Автори</a></li>
+                <li><a href="#books">Книги</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section>
-            <h2>Відомі письменники</h2>
-            <p>Кобеляччина подарувала світу багатьох талановитих літераторів. Тут творили й працювали поети, прозаїки та драматурги.</p>
-            <
-        </section>
-        <section>
-            <h2>Історія літературного краю</h2>
-            <p>З ХІХ століття Кобеляки стали центром культурного життя Полтавщини. Місцеві бібліотеки та літературні гуртки об'єднували людей.</p>
-        </section>
-        <button id="changeBackground">Змінити фон</button>
-    </main>
+
+    <section id="rayon">
+        <h2>Про район</h2>
+        <p>Кобеляччина — район, багатий на літературні традиції та історію.</p>
+        <button onclick="changeBackground()">Змінити фон</button>
+    </section>
+
+    <section id="authors">
+        <h2>Відомі автори</h2>
+        <ul>
+            <li><a href="https://vovarudenko.w3spaces.com/Mykhailo_Semenovych_Biletskyi.html" target="_blank">Білецький Михайло Семенович</a></li>
+            <li><a href="https://vovarudenko.w3spaces.com/Honchar_Oles_Terentiyovych.html" target="_blank">Гончар Олесь Терентійович</a></li>
+            <li><a href="https://vovarudenko.w3spaces.com/Yurii_Petrovych_Dold-Mykhayl.html" target="_blank">Дольд-Михайлик Юрій Петрович</a></li>
+            <li><a href="https://vovarudenko.w3spaces.com/Zhurakhovich_Semen_Mykhailovych.html" target="_blank">Журахович Семен Михайлович</a></li>
+            <li><a href="https://vovarudenko.w3spaces.com/Pavel_Arkhipovych_Zagrebelny.html" target="_blank">Загребельний Павло Архипович</a></li>
+            <li><a href="https://vovarudenko.w3spaces.com/Volodymyr_Leonidovych_Kashin.html" target="_blank">Кашин Володимир Леонідович</a></li>
+            <li><a href="https://vovarudenko.w3spaces.com/Lyudmila_Mykolayivna_Ovdienko.html" target="_blank">Овдієнко Людмила Миколаївна</a></li>
+            <li><a href="https://vovarudenko.w3spaces.com/Weaver_Dmytro_Vasyliovych.html" target="_blank">Ткач Дмитро Васильович</a></li>
+
+        </ul>
+    </section>
+
+    <section id="books">
+        <h2>Книги</h2>
+        <ul>
+            <li>Книга 1</li>
+            <li>Книга 2</li>
+            <li>Книга 3</li>
+            <li>Книга 4</li>
+        </ul>
+    </section>
+
     <footer>
-        <p>&copy; 2024 Літературна Кобеляччина</p>
+        <p>&copy; 2024 by Vova Rudenko</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
