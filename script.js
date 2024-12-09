@@ -1,3 +1,4 @@
+alert("Вас вітає літературна Кобеляччина");
 function changeBackground() {
     const images = [
         'https://ukrainaincognita.com/wp-content/uploads/2021/06/kobeliaky6.jpg',
